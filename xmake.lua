@@ -1,0 +1,5 @@
+target("ConMIDI")
+    set_toolchains("gcc")
+    set_kind("binary")
+    add_syslinks("comdlg32")
+    add_files("src/**.c")

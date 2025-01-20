@@ -16,10 +16,10 @@ If you don't have OmniMIDI, you can choose the "WinMM" device.
 
 ## How to build
 
-Get yourself a copy of GCC and use this command:
+Get yourself a copy of GCC, [xmake](https://xmake.io/) and just build using xmake with:
 
 ```
-gcc ConMIDI.c Essentials.c BufferFile.c MIDI\LoadMIDI.c Sound\Sound.c Sound\WinMM.c Sound\KDMAPI.c Playback\MainPlayer.c Playback\MIDIClock.c MIDI\DataStorage.c -O3 -Os -s -lcomdlg32 -o ConMIDI
+xmake
 ```
 
 ## Credits
